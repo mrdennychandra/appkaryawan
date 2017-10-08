@@ -1,9 +1,3 @@
-<?php
-//mendapatkan uri segment (divisi,karyawan,users) utk css active pada menu
-$uri_path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-$uri_segments = explode('/', $uri_path);
-$folder = $uri_segments[2];
-?>
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -22,7 +16,7 @@ $folder = $uri_segments[2];
                 <li><a href="<?= base_url() ?>index.php">Home <span class="sr-only">(current)</span></a></li>
                 <li><a href="<?= base_url() ?>divisi">Divisi</a></li>
                 <li><a href="<?= base_url() ?>karyawan">Karyawan</a></li>
-                <li><a href="<?= BASEPATH ?>/logout.php">Logout</a></li>
+                <li><a href="<?= BASEPATH ?>logout.php">Logout</a></li>
             </ul>
         </div>
     </div>
