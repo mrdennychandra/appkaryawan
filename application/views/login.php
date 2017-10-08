@@ -7,7 +7,7 @@
     </head>
     <body>
     <?= validation_errors(); ?>
-        <form method="POST" action="<?= base_url("Login/cek") ?>">
+        <form method="POST" action="<?= base_url("login/cek") ?>">
             <fieldset>
                 <legend>Login</legend>
                 <div>

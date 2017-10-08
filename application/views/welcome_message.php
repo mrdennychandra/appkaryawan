@@ -1,7 +1,6 @@
 <?php
 include APPPATH . 'views/fragment/header.php';
 ?>
-<body>
     <header>
         <h1>Sistem Informasi Manajemen Karyawan</h1>
     </header>
