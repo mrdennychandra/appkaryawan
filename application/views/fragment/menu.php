@@ -19,9 +19,9 @@ $folder = $uri_segments[2];
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li <?= $folder == 'index.php' ? 'class="active"' : '' ?>><a href="<?= base_url() ?>/index.php">Home <span class="sr-only">(current)</span></a></li>
-                <li <?= $folder == 'divisi' ? 'class="active"' : '' ?>><a href="<?= base_url() ?>/divisi">Divisi</a></li>
-                <li <?= $folder == 'karyawan' ? 'class="active"' : '' ?>><a href="<?= base_url() ?>/karyawan">Karyawan</a></li>
+                <li><a href="<?= base_url() ?>index.php">Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="<?= base_url() ?>divisi">Divisi</a></li>
+                <li><a href="<?= base_url() ?>karyawan">Karyawan</a></li>
                 <li><a href="<?= BASEPATH ?>/logout.php">Logout</a></li>
             </ul>
         </div>
